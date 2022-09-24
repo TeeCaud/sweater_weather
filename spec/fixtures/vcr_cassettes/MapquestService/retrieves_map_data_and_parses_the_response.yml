@@ -1,0 +1,63 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/geocoding/v1/address?key=DONT SHOW MY API KEY&location=Chicago
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Sat, 24 Sep 2022 20:17:40 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '3138'
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, must-revalidate
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Geocodetransactioncount:
+      - '1'
+      Last-Modified:
+      - Sat, 24 Sep 2022 20:17:40 GMT
+      Pragma:
+      - no-cache
+      Reversegeocodetransactioncount:
+      - '0'
+      Set-Cookie:
+      - JSESSIONID=1160D449A7754FEEDBC0AB84CDC629CD; Path=/; HttpOnly
+      Status:
+      - success
+      Transactionweight:
+      - '1.0'
+    body:
+      encoding: UTF-8
+      string: '{"info":{"statuscode":0,"copyright":{"text":"\u00A9 2022 MapQuest,
+        Inc.","imageUrl":"http://api.mqcdn.com/res/mqlogo.gif","imageAltText":"\u00A9
+        2022 MapQuest, Inc."},"messages":[]},"options":{"maxResults":-1,"thumbMaps":true,"ignoreLatLngInput":false},"results":[{"providedLocation":{"location":"Chicago"},"locations":[{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"Chicago","adminArea5Type":"City","adminArea4":"Cook
+        County","adminArea4Type":"County","adminArea3":"IL","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A5XAX","geocodeQuality":"CITY","dragPoint":false,"sideOfStreet":"N","linkId":"282039507","unknownInput":"","type":"s","latLng":{"lat":41.883229,"lng":-87.632398},"displayLatLng":{"lat":41.883229,"lng":-87.632398},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=DONT
+        SHOW MY API KEY&type=map&size=225,160&locations=41.883229,-87.632398|marker-sm-50318A-1&scalebar=true&zoom=12&rand=316853205"},{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"Chicago","adminArea5Type":"City","adminArea4":"Kenosha
+        County","adminArea4Type":"County","adminArea3":"WI","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A5XAX","geocodeQuality":"CITY","dragPoint":false,"sideOfStreet":"N","linkId":"283441957","unknownInput":"","type":"s","latLng":{"lat":42.586102,"lng":-87.824699},"displayLatLng":{"lat":42.586102,"lng":-87.824699},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=DONT
+        SHOW MY API KEY&type=map&size=225,160&locations=42.586102,-87.824699|marker-sm-50318A-2&scalebar=true&zoom=12&rand=-375261299"},{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"Chicago","adminArea5Type":"City","adminArea4":"Stutsman
+        County","adminArea4Type":"County","adminArea3":"ND","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A5XAX","geocodeQuality":"CITY","dragPoint":false,"sideOfStreet":"N","linkId":"364500464","unknownInput":"","type":"s","latLng":{"lat":46.862755,"lng":-99.237015},"displayLatLng":{"lat":46.862755,"lng":-99.237015},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=DONT
+        SHOW MY API KEY&type=map&size=225,160&locations=46.862755,-99.237015|marker-sm-50318A-3&scalebar=true&zoom=12&rand=-134553957"},{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"Chicago","adminArea5Type":"City","adminArea4":"Douglas
+        County","adminArea4Type":"County","adminArea3":"NE","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A5XAX","geocodeQuality":"CITY","dragPoint":false,"sideOfStreet":"N","linkId":"364485283","unknownInput":"","type":"s","latLng":{"lat":41.24382,"lng":-96.23311},"displayLatLng":{"lat":41.24382,"lng":-96.23311},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=DONT
+        SHOW MY API KEY&type=map&size=225,160&locations=41.24382,-96.23311|marker-sm-50318A-4&scalebar=true&zoom=12&rand=-197063187"}]}]}'
+  recorded_at: Sat, 24 Sep 2022 20:17:40 GMT
+recorded_with: VCR 6.1.0
