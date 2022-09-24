@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - openresty
       Date:
-      - Sat, 24 Sep 2022 23:34:18 GMT
+      - Sat, 24 Sep 2022 23:34:17 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -96,5 +96,5 @@ http_interactions:
         clouds","icon":"02d"}],"clouds":15,"pop":0,"uvi":5},{"dt":1664557200,"sunrise":1664538376,"sunset":1664580875,"moonrise":1664557680,"moonset":1664590620,"moon_phase":0.17,"temp":{"day":64.27,"min":53.13,"max":66.49,"night":61.38,"eve":62.82,"morn":53.13},"feels_like":{"day":62.24,"night":59.67,"eve":61.34,"morn":51.3},"pressure":1020,"humidity":39,"dew_point":37.29,"wind_speed":8.68,"wind_deg":142,"wind_gust":15.95,"weather":[{"id":800,"main":"Clear","description":"clear
         sky","icon":"01d"}],"clouds":0,"pop":0,"uvi":5},{"dt":1664643600,"sunrise":1664624839,"sunset":1664667171,"moonrise":1664648460,"moonset":1664679960,"moon_phase":0.2,"temp":{"day":69.57,"min":56.59,"max":71.55,"night":65.28,"eve":66.97,"morn":56.59},"feels_like":{"day":68.2,"night":63.95,"eve":65.71,"morn":54.77},"pressure":1013,"humidity":42,"dew_point":44.4,"wind_speed":5.41,"wind_deg":151,"wind_gust":6.67,"weather":[{"id":800,"main":"Clear","description":"clear
         sky","icon":"01d"}],"clouds":0,"pop":0,"uvi":5}]}'
-  recorded_at: Sat, 24 Sep 2022 23:34:18 GMT
+  recorded_at: Sat, 24 Sep 2022 23:34:17 GMT
 recorded_with: VCR 6.1.0

@@ -1,5 +1,5 @@
 class Weather
-  def initialize
+  def initialize(data)
     @datetime = 'adf'
   end
 end
