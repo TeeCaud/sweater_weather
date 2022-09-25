@@ -36,7 +36,7 @@ RSpec.describe WeatherFacade, :vcr do
       lon = '-87.632398'
 
       hourly_weather = WeatherFacade.hourly_weather(lat, lon)
-      expect(hourly_weather).to be_a(HourlyWeather)
+      expect(hourly_weather.first).to be_a(HourlyWeather)
     end
   end
 end

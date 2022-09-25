@@ -16,7 +16,9 @@ class WeatherFacade
     end
 
     def hourly_weather(lat, lon)
-      HourlyWeather.new(WeatherService.get_weather(lat,lon)[:hourly])
+      WeatherService.get_weather(lat,lon)[:hourly].last(8).map do |hour|
+        HourlyWeather.new(hour)
+      end
     end
   end
 end
