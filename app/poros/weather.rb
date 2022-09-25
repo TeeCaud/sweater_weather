@@ -1,5 +1,7 @@
 class Weather
+  attr_reader :id
   def initialize(data)
-    @datetime = 'adf'
+    @id = nil
+    @current = data[:current]
   end
 end

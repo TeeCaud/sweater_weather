@@ -1,3 +1,5 @@
+require 'simplecov'
+SimpleCov.start
 # This file is copied to spec/ when you run 'rails generate rspec:install'
 require 'spec_helper'
 ENV['RAILS_ENV'] ||= 'test'
@@ -65,10 +67,10 @@ end
 VCR.configure do |config|
   config.cassette_library_dir = "spec/fixtures/vcr_cassettes"
   config.hook_into :webmock
-  config.configure_rspec_metadata!
+  config.default_cassette_options = { re_record_interval: 5.seconds }
   config.filter_sensitive_data('DONT SHOW MY API KEY') { ENV['mapquest_api_key']}
   config.filter_sensitive_data('DONT SHOW MY API KEY') { ENV['weather_api_key']}
-  config.default_cassette_options = { re_record_interval: 1.week }
+  config.configure_rspec_metadata!
 end
 Shoulda::Matchers.configure do |config|
   config.integrate do |with|
