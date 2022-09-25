@@ -26,7 +26,7 @@ RSpec.describe WeatherFacade, :vcr do
       lon = '-87.632398'
 
       daily_weather = WeatherFacade.daily_weather(lat, lon)
-      expect(daily_weather).to be_a(DailyWeather)
+      expect(daily_weather.first).to be_a(DailyWeather)
     end
   end
 

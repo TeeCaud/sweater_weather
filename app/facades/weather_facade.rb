@@ -10,7 +10,9 @@ class WeatherFacade
     end
 
     def daily_weather(lat, lon)
-      DailyWeather.new(WeatherService.get_weather(lat, lon)[:daily])
+      WeatherService.get_weather(lat, lon)[:daily].last(5).map do |day|
+        DailyWeather.new(day)
+      end
     end
 
     def hourly_weather(lat, lon)

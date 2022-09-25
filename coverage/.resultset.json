@@ -283,7 +283,9 @@
           null,
           null,
           1,
-          1,
+          2,
+          10,
+          null,
           null,
           null,
           1,
@@ -333,6 +335,47 @@
           2,
           2,
           2,
+          null,
+          null
+        ]
+      },
+      "/Users/turingtjc/Turing/3Module/projects/sweater_weather/spec/poros/daily_weather_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/turingtjc/Turing/3Module/projects/sweater_weather/app/poros/daily_weather.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          null,
+          10,
           null,
           null
         ]
@@ -472,10 +515,10 @@
           1,
           null,
           1,
-          7,
-          7,
+          8,
+          8,
           null,
-          7,
+          8,
           null,
           null,
           null
@@ -487,7 +530,7 @@
           1,
           null,
           1,
-          11,
+          12,
           null,
           null,
           1,
@@ -497,19 +540,10 @@
           null,
           null,
           1,
-          7,
-          7,
+          8,
+          8,
           null,
           null,
-          null,
-          null
-        ]
-      },
-      "/Users/turingtjc/Turing/3Module/projects/sweater_weather/app/poros/daily_weather.rb": {
-        "lines": [
-          1,
-          null,
-          1,
           null,
           null
         ]
@@ -524,6 +558,6 @@
         ]
       }
     },
-    "timestamp": 1664070989
+    "timestamp": 1664072200
   }
 }
