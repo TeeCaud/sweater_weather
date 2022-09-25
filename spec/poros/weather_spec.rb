@@ -9,5 +9,8 @@ RSpec.describe Weather do
   it 'exists', :vcr do
     expect(@weather).to be_a(Weather)
     expect(@weather.id).to eq(nil)
+    expect(@weather.current_weather).to be_a CurrentWeather
+    expect(@weather.daily_weather.first).to be_a DailyWeather
+    expect(@weather.hourly_weather.first).to be_a HourlyWeather
   end
 end
