@@ -8,7 +8,6 @@ RSpec.describe 'Forecast API', :vcr do
 
     parsed_json = JSON.parse(response.body, symbolize_names: true)
     forecast = parsed_json[:data]
-    # binding.pry
 
     expect(forecast).to be_a Hash
     expect(forecast[:id]).to eq(nil)
