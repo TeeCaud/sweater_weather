@@ -14,7 +14,7 @@
       <img src="./assets/0.12.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2022-09-25T19:28:07-05:00">2022-09-25T19:28:07-05:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2022-09-26T10:51:23-05:00">2022-09-26T10:51:23-05:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -30,7 +30,7 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         2.6
+         2.52
        </span>
     </span> hits/line
     )
@@ -39,12 +39,12 @@
   <a name="AllFiles"></a>
 
   <div>
-    <b>34</b> files in total.
+    <b>36</b> files in total.
   </div>
 
   <div class="t-line-summary">
-    <b>329</b> relevant lines,
-    <span class="green"><b>329</b> lines covered</span> and
+    <b>346</b> relevant lines,
+    <span class="green"><b>346</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed. </span>
     (<span class="green">
   100.0%
@@ -183,11 +183,22 @@
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#0a75f8e6f4232e918410afe6f5e8d9eab7191374" class="src_link" title="app/services/base_service.rb">app/services/base_service.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">20</td>
-            <td class="cell--number">10</td>
-            <td class="cell--number">10</td>
+            <td class="cell--number">26</td>
+            <td class="cell--number">12</td>
+            <td class="cell--number">12</td>
             <td class="cell--number">0</td>
-            <td class="cell--number">5.00</td>
+            <td class="cell--number">4.42</td>
+            
+          </tr>
+        
+          <tr class="t-file">
+            <td class="strong t-file__name"><a href="#47a4b3bf089eae35011ec0cf77a36edd50179627" class="src_link" title="app/services/book_service.rb">app/services/book_service.rb</a></td>
+            <td class="green strong cell--number t-file__coverage">100.00 %</td>
+            <td class="cell--number">9</td>
+            <td class="cell--number">5</td>
+            <td class="cell--number">5</td>
+            <td class="cell--number">0</td>
+            <td class="cell--number">1.00</td>
             
           </tr>
         
@@ -415,8 +426,19 @@
             <td class="strong t-file__name"><a href="#6f4bfd9317051b3e3c8c73e9cf555e5e5f2cd8fc" class="src_link" title="spec/requests/api/v1/forecast_request_spec.rb">spec/requests/api/v1/forecast_request_spec.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">79</td>
-            <td class="cell--number">66</td>
-            <td class="cell--number">66</td>
+            <td class="cell--number">67</td>
+            <td class="cell--number">67</td>
+            <td class="cell--number">0</td>
+            <td class="cell--number">1.00</td>
+            
+          </tr>
+        
+          <tr class="t-file">
+            <td class="strong t-file__name"><a href="#94dc38ee43522c6f18def377dfc4c16434aa9c1b" class="src_link" title="spec/services/book_service_spec.rb">spec/services/book_service_spec.rb</a></td>
+            <td class="green strong cell--number t-file__coverage">100.00 %</td>
+            <td class="cell--number">12</td>
+            <td class="cell--number">9</td>
+            <td class="cell--number">9</td>
             <td class="cell--number">0</td>
             <td class="cell--number">1.00</td>
             
@@ -1929,8 +1951,8 @@
     
 
     <div class="t-line-summary">
-      <b>10</b> relevant lines.
-      <span class="green"><b>10</b> lines covered</span> and
+      <b>12</b> relevant lines.
+      <span class="green"><b>12</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -1986,8 +2008,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="15" data-linenumber="5">
-            <span class="hits">15</span>
+          <li class="covered" data-hits="16" data-linenumber="5">
+            <span class="hits">16</span>
             
 
             
@@ -2146,12 +2168,208 @@
 
             
 
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="20">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    def book_conn</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="21">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      Faraday.new(url: &quot;https://openlibrary.org&quot;) do |faraday|</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="22">
+            
+            
+
+            
+
+            <code class="ruby">      end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="23">
+            
+            
+
+            
+
+            <code class="ruby">    end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="24">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="25">
+            
+            
+
+            
+
             <code class="ruby">  end</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="20">
+          <li class="never" data-hits="" data-linenumber="26">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="47a4b3bf089eae35011ec0cf77a36edd50179627">
+  <div class="header">
+    <h3>app/services/book_service.rb</h3>
+    <h4>
+      <span class="green">
+  100.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>5</b> relevant lines.
+      <span class="green"><b>5</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+
+    
+
+  </div>
+
+  <pre>
+    <ol>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="1">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">class BookService</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="2">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  class &lt;&lt; self</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="3">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="4">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    def get_book(id)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="5">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      response = BaseService.book_conn.get(&quot;/api/books?bibkeys=ISBN:#{id}&amp;jscmd=data&amp;format=json&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="6">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      BaseService.get_json(response)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="7">
+            
+            
+
+            
+
+            <code class="ruby">    end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="8">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="9">
             
             
 
@@ -6232,8 +6450,8 @@
     
 
     <div class="t-line-summary">
-      <b>66</b> relevant lines.
-      <span class="green"><b>66</b> lines covered</span> and
+      <b>67</b> relevant lines.
+      <span class="green"><b>67</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -6289,13 +6507,13 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="5">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="5">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">    # headers = { &#39;CONTENT TYPE&#39; =&gt; &#39;application/json&#39; }</code>
+            
+
+            <code class="ruby">    headers = { &#39;CONTENT TYPE&#39; =&gt; &#39;application/json&#39; }</code>
           </li>
         </div>
       
@@ -7104,6 +7322,169 @@
       
         <div>
           <li class="never" data-hits="" data-linenumber="79">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="94dc38ee43522c6f18def377dfc4c16434aa9c1b">
+  <div class="header">
+    <h3>spec/services/book_service_spec.rb</h3>
+    <h4>
+      <span class="green">
+  100.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>9</b> relevant lines.
+      <span class="green"><b>9</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+
+    
+
+  </div>
+
+  <pre>
+    <ol>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="1">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">require &#39;rails_helper&#39;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="2">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="3">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">RSpec.describe BookService, :vcr do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="4">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  it &#39;retrieves books from Openlibrary&#39; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="5">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    id = &#39;0201558025&#39;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="6">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    response = BookService.get_book(id)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="7">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(response).to be_a Hash</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="8">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(response).to have_key(:&quot;ISBN:#{id}&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="9">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(response[:&quot;ISBN:#{id}&quot;]).to have_key(:title)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="10">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(response[:&quot;ISBN:#{id}&quot;]).to have_key(:publishers)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="11">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="12">
             
             
 

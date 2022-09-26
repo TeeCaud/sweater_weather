@@ -1,0 +1,183 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://openlibrary.org/api/books?bibkeys=ISBN:0201558025&content_type=application/json&jscmd=data
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 15:37:36 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"IB 1 0.050 MC 4 0.003 TT 0 0.059"'
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+    body:
+      encoding: UTF-8
+      string: 'var _OLBookInfo = {"ISBN:0201558025": {"url": "https://openlibrary.org/books/OL1429049M/Concrete_mathematics",
+        "key": "/books/OL1429049M", "title": "Concrete mathematics", "subtitle": "a
+        foundation for computer science", "authors": [{"url": "https://openlibrary.org/authors/OL720958A/Ronald_L._Graham",
+        "name": "Ronald L. Graham"}, {"url": "https://openlibrary.org/authors/OL229501A/Donald_Knuth",
+        "name": "Donald Knuth"}, {"url": "https://openlibrary.org/authors/OL2669938A/Oren_Patashnik",
+        "name": "Oren Patashnik"}], "number_of_pages": 657, "pagination": "xiii, 657
+        p. :", "by_statement": "Ronald L. Graham, Donald E. Knuth, Oren Patashnik.",
+        "identifiers": {"librarything": ["45844"], "wikidata": ["Q15303722"], "goodreads":
+        ["112243"], "isbn_10": ["0201558025"], "lccn": ["93040325"], "openlibrary":
+        ["OL1429049M"]}, "classifications": {"lc_classifications": ["QA39.2 .G733
+        1994", "QA39.2.G733 1994"], "dewey_decimal_class": ["510"]}, "publishers":
+        [{"name": "Addison-Wesley"}], "publish_places": [{"name": "Reading, Mass"}],
+        "publish_date": "1994", "subjects": [{"name": "Computer science", "url": "https://openlibrary.org/subjects/computer_science"},
+        {"name": "Mathematics", "url": "https://openlibrary.org/subjects/mathematics"},
+        {"name": "Computer science, mathematics", "url": "https://openlibrary.org/subjects/computer_science,_mathematics"}],
+        "notes": "Includes bibliographical references (p. 604-631) and index.", "ebooks":
+        [{"preview_url": "https://archive.org/details/concretemathemat00grah_444",
+        "availability": "restricted", "formats": {}}], "cover": {"small": "https://covers.openlibrary.org/b/id/135182-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/135182-M.jpg", "large": "https://covers.openlibrary.org/b/id/135182-L.jpg"}}};'
+  recorded_at: Mon, 26 Sep 2022 15:37:36 GMT
+- request:
+    method: get
+    uri: https://openlibrary.org/api/books?bibkeys=ISBN:0201558025&jscmd=data
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 15:39:15 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"IB 1 0.023 MC 4 0.002 TT 0 0.045"'
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+    body:
+      encoding: UTF-8
+      string: 'var _OLBookInfo = {"ISBN:0201558025": {"url": "https://openlibrary.org/books/OL1429049M/Concrete_mathematics",
+        "key": "/books/OL1429049M", "title": "Concrete mathematics", "subtitle": "a
+        foundation for computer science", "authors": [{"url": "https://openlibrary.org/authors/OL720958A/Ronald_L._Graham",
+        "name": "Ronald L. Graham"}, {"url": "https://openlibrary.org/authors/OL229501A/Donald_Knuth",
+        "name": "Donald Knuth"}, {"url": "https://openlibrary.org/authors/OL2669938A/Oren_Patashnik",
+        "name": "Oren Patashnik"}], "number_of_pages": 657, "pagination": "xiii, 657
+        p. :", "by_statement": "Ronald L. Graham, Donald E. Knuth, Oren Patashnik.",
+        "identifiers": {"librarything": ["45844"], "wikidata": ["Q15303722"], "goodreads":
+        ["112243"], "isbn_10": ["0201558025"], "lccn": ["93040325"], "openlibrary":
+        ["OL1429049M"]}, "classifications": {"lc_classifications": ["QA39.2 .G733
+        1994", "QA39.2.G733 1994"], "dewey_decimal_class": ["510"]}, "publishers":
+        [{"name": "Addison-Wesley"}], "publish_places": [{"name": "Reading, Mass"}],
+        "publish_date": "1994", "subjects": [{"name": "Computer science", "url": "https://openlibrary.org/subjects/computer_science"},
+        {"name": "Mathematics", "url": "https://openlibrary.org/subjects/mathematics"},
+        {"name": "Computer science, mathematics", "url": "https://openlibrary.org/subjects/computer_science,_mathematics"}],
+        "notes": "Includes bibliographical references (p. 604-631) and index.", "ebooks":
+        [{"preview_url": "https://archive.org/details/concretemathemat00grah_444",
+        "availability": "restricted", "formats": {}}], "cover": {"small": "https://covers.openlibrary.org/b/id/135182-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/135182-M.jpg", "large": "https://covers.openlibrary.org/b/id/135182-L.jpg"}}};'
+  recorded_at: Mon, 26 Sep 2022 15:39:15 GMT
+- request:
+    method: get
+    uri: https://openlibrary.org/api/books?bibkeys=ISBN:0201558025&format=json&jscmd=data
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 15:51:23 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"IB 1 0.018 MC 4 0.001 TT 0 0.022"'
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+    body:
+      encoding: UTF-8
+      string: '{"ISBN:0201558025": {"url": "https://openlibrary.org/books/OL1429049M/Concrete_mathematics",
+        "key": "/books/OL1429049M", "title": "Concrete mathematics", "subtitle": "a
+        foundation for computer science", "authors": [{"url": "https://openlibrary.org/authors/OL720958A/Ronald_L._Graham",
+        "name": "Ronald L. Graham"}, {"url": "https://openlibrary.org/authors/OL229501A/Donald_Knuth",
+        "name": "Donald Knuth"}, {"url": "https://openlibrary.org/authors/OL2669938A/Oren_Patashnik",
+        "name": "Oren Patashnik"}], "number_of_pages": 657, "pagination": "xiii, 657
+        p. :", "by_statement": "Ronald L. Graham, Donald E. Knuth, Oren Patashnik.",
+        "identifiers": {"librarything": ["45844"], "wikidata": ["Q15303722"], "goodreads":
+        ["112243"], "isbn_10": ["0201558025"], "lccn": ["93040325"], "openlibrary":
+        ["OL1429049M"]}, "classifications": {"lc_classifications": ["QA39.2 .G733
+        1994", "QA39.2.G733 1994"], "dewey_decimal_class": ["510"]}, "publishers":
+        [{"name": "Addison-Wesley"}], "publish_places": [{"name": "Reading, Mass"}],
+        "publish_date": "1994", "subjects": [{"name": "Computer science", "url": "https://openlibrary.org/subjects/computer_science"},
+        {"name": "Mathematics", "url": "https://openlibrary.org/subjects/mathematics"},
+        {"name": "Computer science, mathematics", "url": "https://openlibrary.org/subjects/computer_science,_mathematics"}],
+        "notes": "Includes bibliographical references (p. 604-631) and index.", "ebooks":
+        [{"preview_url": "https://archive.org/details/concretemathemat00grah_444",
+        "availability": "restricted", "formats": {}}], "cover": {"small": "https://covers.openlibrary.org/b/id/135182-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/135182-M.jpg", "large": "https://covers.openlibrary.org/b/id/135182-L.jpg"}}}'
+  recorded_at: Mon, 26 Sep 2022 15:51:23 GMT
+recorded_with: VCR 6.1.0

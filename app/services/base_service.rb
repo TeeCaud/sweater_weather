@@ -17,9 +17,10 @@ class BaseService
       end
     end
 
-    def library_conn
-      Faraday.new(url: "https://openlibrary.org")
+    def book_conn
+      Faraday.new(url: "https://openlibrary.org") do |faraday|
+      end
     end
-    
+
   end
 end
