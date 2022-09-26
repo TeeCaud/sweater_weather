@@ -4,6 +4,6 @@ class BookForecast
     @destination = data[3]
     @forecast = {'summary': "#{data[1].conditions}", 'temperature': "#{data[1].temperature} F"}
     @total_books_found = data[0]
-    @books = [2]
+    @books = data[2]
   end
 end

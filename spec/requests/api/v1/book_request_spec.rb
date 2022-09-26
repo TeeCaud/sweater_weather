@@ -3,13 +3,13 @@ require 'rails_helper'
 RSpec.describe 'Book request by city' do
 
   it 'gives books by search', :vcr do
-    city = 'chicago'
-    quantity = 5
-    lat = '41.883229'
-    lon = '-87.632398'
+    # city = 'chicago'
+    # quantity = 5
+    # lat = '41.883229'
+    # lon = '-87.632398'
 
 
-    get "/api/v1/book-search", headers: headers, params: { location: city, quantity: quantity }
+    get '/api/v1/book-search?location=denver,co&quantity=5'
     expect(response).to be_successful
 
     parsed_json = JSON.parse(response.body, symbolize_names: true)
