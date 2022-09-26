@@ -4,6 +4,5 @@ class Book
     @isbn = data[:isbn]
     @title = data[:title]
     @publisher = data[:publisher]
-    @publish_place = data[:publish_place]
   end
 end

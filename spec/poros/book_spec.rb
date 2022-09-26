@@ -3,8 +3,9 @@ require 'rails_helper'
 RSpec.describe Book, :vcr do
   describe 'books' do
     it 'exists with attributes' do
-      query = 'shiloh'
-      books = BookFacade.get_books(query)
+      city = 'chicago'
+      quantity = 5
+      books = BookFacade.get_books(city, quantity)
       book = books.first
 
       expect(book).to be_a Book
