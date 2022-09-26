@@ -2,8 +2,8 @@ require 'rails_helper'
 
 RSpec.describe BookService, :vcr do
   it 'retrieves books from Openlibrary' do
-    id = '0201558025'
-    response = BookService.get_book(id)
+    query = 'shiloh'
+    response = BookService.get_book(query)
     first_book = response[:docs].first
     expect(response).to be_a Hash
     expect(response).to have_key(:numFound)
