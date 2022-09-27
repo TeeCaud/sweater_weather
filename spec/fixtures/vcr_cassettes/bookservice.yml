@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx/1.18.0 (Ubuntu)
       Date:
-      - Tue, 27 Sep 2022 14:37:12 GMT
+      - Tue, 27 Sep 2022 20:20:47 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -35,7 +35,7 @@ http_interactions:
       Access-Control-Max-Age:
       - '86400'
       X-Ol-Stats:
-      - '"SR 1 0.128 TT 0 0.131"'
+      - '"SR 1 0.095 TT 0 0.098"'
       Referrer-Policy:
       - no-referrer-when-downgrade
     body:
@@ -1540,5 +1540,5 @@ http_interactions:
             "q": "chicago",
             "offset": null
         }
-  recorded_at: Tue, 27 Sep 2022 14:37:12 GMT
+  recorded_at: Tue, 27 Sep 2022 20:20:47 GMT
 recorded_with: VCR 6.1.0

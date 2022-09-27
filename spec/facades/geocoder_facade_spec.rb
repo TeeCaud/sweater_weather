@@ -8,4 +8,18 @@ RSpec.describe GeocoderFacade do
       expect(latlong).to be_a(Geocoder)
     end
   end
+
+  describe '#get_directions', :vcr do
+    it 'happy path' do
+      directions = GeocoderFacade.get_directions('denver, co', 'chicago, il')
+      expect(directions).to be_a(String)
+      expect(directions).to_not eq('Invalid Route')
+    end
+
+    it 'sad path' do
+      directions = GeocoderFacade.get_directions('denver, co', 'antartica')
+      expect(directions).to be_a String
+      expect(directions).to eq('Invalid Route')
+    end
+  end
 end
