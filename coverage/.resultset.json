@@ -212,6 +212,7 @@
           1,
           1,
           1,
+          1,
           null,
           null,
           null
@@ -367,7 +368,7 @@
           1,
           null,
           1,
-          5,
+          7,
           null,
           null
         ]
@@ -698,6 +699,63 @@
           null
         ]
       },
+      "/Users/turingtjc/Turing/3Module/projects/sweater_weather/spec/requests/api/v1/sessions_request_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
       "/Users/turingtjc/Turing/3Module/projects/sweater_weather/spec/requests/api/v1/user_request_spec.rb": {
         "lines": [
           1,
@@ -963,9 +1021,9 @@
           1,
           null,
           1,
-          2,
-          2,
-          1,
+          4,
+          4,
+          3,
           null,
           1,
           null,
@@ -974,7 +1032,7 @@
           1,
           null,
           1,
-          2,
+          4,
           null,
           null
         ]
@@ -987,8 +1045,24 @@
           1,
           null
         ]
+      },
+      "/Users/turingtjc/Turing/3Module/projects/sweater_weather/app/controllers/api/v1/sessions_controller.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          2,
+          2,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1664297492
+    "timestamp": 1664300942
   }
 }

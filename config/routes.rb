@@ -4,6 +4,7 @@ Rails.application.routes.draw do
       resources :forecast
       get '/book-search', to: 'books#search'
       post '/sign-up', to: 'users#create'
+      post '/sessions', to: 'sessions#create'
     end
   end
 end
