@@ -3,6 +3,7 @@ Rails.application.routes.draw do
     namespace :v1 do
       resources :forecast
       get '/book-search', to: 'books#search'
+      post '/sign-up', to: 'users#create'
     end
   end
 end
