@@ -13,7 +13,6 @@ RSpec.describe User, type: :model do
   describe 'passwords' do
     it 'validates password' do
       user = User.create!(email: 'test@test123.com', password: 'password123', password_confirmation: 'password123')
-      binding.pry
 
       expect(user).to_not have_attribute(:password)
       expect(user.password_digest).to_not eq('password123')
