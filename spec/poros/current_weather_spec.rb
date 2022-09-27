@@ -2,9 +2,7 @@ require 'rails_helper'
 
 RSpec.describe CurrentWeather, :vcr do
   it 'exists and has attributes' do
-    lat = '41.883229'
-    lon = '-87.632398'
-    object = WeatherFacade.current_weather(lat, lon)
+    object = WeatherFacade.current_weather('denver, co')
     expect(object).to be_a(CurrentWeather)
     expect(object.dt).to be_a String
     expect(object.sunrise).to be_a String

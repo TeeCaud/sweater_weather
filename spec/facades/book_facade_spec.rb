@@ -1,23 +1,12 @@
 require 'rails_helper'
 
-RSpec.describe BookFacade, :vcr do
+RSpec.describe BookFacade do
   describe "#getbook" do
-    it 'creates object' do
+    it 'creates object', :vcr do
       city = 'chicago'
       quantity = 5
-      book = BookFacade.get_books(city, quantity)
-      expect(book.first).to be_a Book
-    end
-
-    it 'creates objects with weather details', :vcr do
-      city = 'chicago'
-      quantity = 5
-      location = "chicago, il"
-      lat = '41.883229'
-      lon = '-87.632398'
-
-      book = BookFacade.book_forecast(city, quantity)
-      expect(book.first).to be_a BookForecast
+      book = BookFacade.get_books('denver', 5)
+      expect(book).to be_a BookForecast
     end
   end
 end
