@@ -3,8 +3,7 @@ require 'rails_helper'
 RSpec.describe Weather do
   before :each do
     location = 'Chicago, IL'
-    coords = GeocoderFacade.get_coordinates(location)
-    @weather = WeatherFacade.weather(coords.lat, coords.lon)
+    @weather = WeatherFacade.weather(location)
   end
   it 'exists', :vcr do
     expect(@weather).to be_a(Weather)

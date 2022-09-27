@@ -1,0 +1,1544 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://openlibrary.org/search.json?limit=5&q=chicago
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Tue, 27 Sep 2022 14:37:12 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"SR 1 0.128 TT 0 0.131"'
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+            "numFound": 67049,
+            "start": 0,
+            "numFoundExact": true,
+            "docs": [
+                {
+                    "key": "/works/OL8204662W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL8051188M",
+                        "/books/OL9440135M",
+                        "/books/OL24238186M",
+                        "/books/OL24267748M",
+                        "/books/OL27915528M",
+                        "/books/OL24324752M",
+                        "/books/OL8042312M",
+                        "/books/OL8051511M",
+                        "/books/OL24272706M",
+                        "/books/OL8052130M",
+                        "/books/OL7595077M",
+                        "/books/OL24277749M",
+                        "/books/OL27915529M",
+                        "/books/OL15976940M",
+                        "/books/OL24304697M",
+                        "/books/OL10294172M",
+                        "/books/OL23117267M",
+                        "/books/OL24257343M",
+                        "/books/OL24307874M",
+                        "/books/OL34598355M",
+                        "/books/OL26410714M",
+                        "/books/OL33391159M",
+                        "/books/OL25561024M",
+                        "/books/OL39492218M",
+                        "/books/OL26357560M",
+                        "/works/OL8204662W",
+                        "/subjects/travel",
+                        "/subjects/nonfiction",
+                        "/subjects/guidebooks",
+                        "/subjects/description_and_travel",
+                        "/subjects/architecture",
+                        "/subjects/midwest",
+                        "/subjects/general",
+                        "/subjects/chicago_(ill.)",
+                        "/subjects/chicago_(ill.)_guidebooks",
+                        "/subjects/place:illinois",
+                        "/subjects/place:chicago_(ill.)",
+                        "/subjects/place:chicago",
+                        "/subjects/place:the_loop",
+                        "/subjects/place:the_art_institute_of_chicago",
+                        "/subjects/place:sears_tower",
+                        "/subjects/place:grant_park",
+                        "/subjects/place:magnificent_mile",
+                        "/subjects/place:lincoln_park",
+                        "/subjects/place:hyde_park",
+                        "/subjects/place:museum_of_science_and_industry",
+                        "/authors/OL2730173A"
+                    ],
+                    "title": "Frommer's Chicago",
+                    "title_suggest": "Frommer's Chicago",
+                    "edition_count": 25,
+                    "edition_key": [
+                        "OL8051188M",
+                        "OL9440135M",
+                        "OL24238186M",
+                        "OL24267748M",
+                        "OL27915528M",
+                        "OL24324752M",
+                        "OL8042312M",
+                        "OL8051511M",
+                        "OL24272706M",
+                        "OL8052130M",
+                        "OL7595077M",
+                        "OL24277749M",
+                        "OL27915529M",
+                        "OL15976940M",
+                        "OL24304697M",
+                        "OL10294172M",
+                        "OL23117267M",
+                        "OL24257343M",
+                        "OL24307874M",
+                        "OL34598355M",
+                        "OL26410714M",
+                        "OL33391159M",
+                        "OL25561024M",
+                        "OL39492218M",
+                        "OL26357560M"
+                    ],
+                    "publish_date": [
+                        "December 17, 2002",
+                        "2008",
+                        "2012",
+                        "2004",
+                        "2006",
+                        "2003",
+                        "November 20, 2006",
+                        "2010",
+                        "2011",
+                        "2009",
+                        "2005",
+                        "December 2001",
+                        "2007"
+                    ],
+                    "publish_year": [
+                        2007,
+                        2008,
+                        2012,
+                        2004,
+                        2006,
+                        2003,
+                        2011,
+                        2009,
+                        2005,
+                        2001,
+                        2010,
+                        2002
+                    ],
+                    "first_publish_year": 2001,
+                    "number_of_pages_median": 314,
+                    "publish_place": [
+                        "Hoboken, N.J., USA",
+                        "Hoboken, NJ, USA",
+                        "Hoboken",
+                        "New York",
+                        "New York, USA",
+                        "Hoboken, N.J."
+                    ],
+                    "oclc": [
+                        "326680007",
+                        "63669666",
+                        "66466643",
+                        "229266166",
+                        "726822539",
+                        "317128407",
+                        "943604112",
+                        "1060708740",
+                        "70986137",
+                        "488939827",
+                        "51305350",
+                        "1020189864",
+                        "5090331",
+                        "191700295",
+                        "651073652",
+                        "948629233"
+                    ],
+                    "lcc": [
+                        "F--0548.18000000.B632 2010",
+                        "F--0548.18000000.B53 2005",
+                        "F--0000.00000000",
+                        "F--0548.18000000.B53 2003",
+                        "F--0548.18000000",
+                        "D--0020.00000000 F76 v. 36 2008",
+                        "F--0548.18000000.B53 2012eb",
+                        "F--0548.18000000.F76 2007",
+                        "D--0020.00000000 F76 v. 36 2006",
+                        "F--0548.18000000.F76 2012",
+                        "F--0548.18000000.B53 2009"
+                    ],
+                    "ddc": [
+                        "917.7311",
+                        "917.73110444"
+                    ],
+                    "isbn": [
+                        "9781118017203",
+                        "9780764566820",
+                        "0470643730",
+                        "9780764597701",
+                        "0470165375",
+                        "9780764557118",
+                        "0764564935",
+                        "0471783560",
+                        "076457289X",
+                        "0470944145",
+                        "0470373717",
+                        "9780764572890",
+                        "0764557114",
+                        "9780470040782",
+                        "9780470165379",
+                        "047025176X",
+                        "9780764539039",
+                        "9780470441985",
+                        "0764566822",
+                        "9780470586167",
+                        "111801720X",
+                        "9780470944141",
+                        "9780470108956",
+                        "9780471783565",
+                        "9780470504680",
+                        "0764597701",
+                        "9780470373712",
+                        "076458359X",
+                        "0470441984",
+                        "9781118162392",
+                        "1118162390",
+                        "0470586168",
+                        "0470504684",
+                        "9780764583599",
+                        "0470108959",
+                        "9780764564932",
+                        "9780470643730",
+                        "9780470251768",
+                        "0764539035",
+                        "0470040785"
+                    ],
+                    "last_modified_i": 1663276422,
+                    "ebook_count_i": 13,
+                    "ebook_access": "borrowable",
+                    "has_fulltext": true,
+                    "public_scan_b": false,
+                    "ia": [
+                        "frommerschicago200blac",
+                        "frommerschicago20000blac_x5g2",
+                        "frommerschicago200eliz",
+                        "frommerschicago20000blac_y5f8",
+                        "chicago20060000blac",
+                        "frommerschicago20000blac_e3t5",
+                        "frommerschicago200blac_0",
+                        "frommerschicago20000blac",
+                        "isbn_9780470643730",
+                        "frommerschicago0000blac",
+                        "isbn_9781118017203",
+                        "frommerschicagof00blac",
+                        "frommerschicagof00blac_903"
+                    ],
+                    "ia_collection": [
+                        "americana",
+                        "china",
+                        "delawarecountydistrictlibrary",
+                        "delawarecountydistrictlibrary-ol",
+                        "inlibrary",
+                        "internetarchivebooks",
+                        "library_of_atlantis",
+                        "librarygenesis",
+                        "printdisabled",
+                        "worthingtonlibraries-ol"
+                    ],
+                    "ia_collection_s": "americana;china;delawarecountydistrictlibrary;delawarecountydistrictlibrary-ol;inlibrary;internetarchivebooks;library_of_atlantis;librarygenesis;printdisabled;worthingtonlibraries-ol",
+                    "lending_edition_s": "OL24238186M",
+                    "lending_identifier_s": "frommerschicago200blac",
+                    "printdisabled_s": "OL24238186M;OL27915528M;OL8042312M;OL8051511M;OL8052130M;OL27915529M;OL15976940M;OL26410714M;OL25561024M;OL39492218M;OL26357560M;OL10294172M;OL23117267M",
+                    "cover_edition_key": "OL24238186M",
+                    "cover_i": 8384529,
+                    "first_sentence": [
+                        "Has Chicago finally gotten over its \"Second City\" inferiority complex.",
+                        "A city as large and diverse as Chicago offers almost too many options; here you'll find hotels, restaurants, and cultural offerings to suit every style (not to mention budget).",
+                        "Has Chicago finally gotten over its \"Second City\" inferiority complex?"
+                    ],
+                    "publisher": [
+                        "Wiley & Sons, Limited, John",
+                        "Wiley & Sons, Incorporated, John",
+                        "Frommer's",
+                        "John Wiley & Sons, Ltd.",
+                        "Wiley",
+                        "Wiley Publishing"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL2730173A"
+                    ],
+                    "author_name": [
+                        "Elizabeth Canning Blackwell"
+                    ],
+                    "author_alternative_name": [
+                        "Elizabeth Blackwell"
+                    ],
+                    "place": [
+                        "Illinois",
+                        "Chicago (Ill.)",
+                        "Chicago",
+                        "The Loop",
+                        "The Art Institute of Chicago",
+                        "Sears Tower",
+                        "Grant Park",
+                        "Magnificent Mile",
+                        "Lincoln Park",
+                        "Hyde Park",
+                        "Museum of Science and Industry"
+                    ],
+                    "subject": [
+                        "Travel",
+                        "Nonfiction",
+                        "Guidebooks",
+                        "Description and travel",
+                        "architecture",
+                        "Midwest",
+                        "General",
+                        "Chicago (Ill.)",
+                        "Chicago (ill.), guidebooks"
+                    ],
+                    "id_alibris_id": [
+                        "9242372"
+                    ],
+                    "id_amazon": [
+                        "111801720X",
+                        "0470040785"
+                    ],
+                    "id_goodreads": [
+                        "44090112",
+                        "9184618",
+                        "250200",
+                        "2919871",
+                        "6740680",
+                        "2919869",
+                        "1668191",
+                        "2586454",
+                        "5090331",
+                        "3488749",
+                        "2768479"
+                    ],
+                    "id_google": [
+                        "9_0UmAEACAAJ",
+                        "wsXh2asKG",
+                        "e81-uQAACAAJ"
+                    ],
+                    "id_librarything": [
+                        "1241344",
+                        "2105978",
+                        "1134199",
+                        "7874568",
+                        "2718028",
+                        "193956",
+                        "4708624"
+                    ],
+                    "id_overdrive": [
+                        "0DB3CCBC-CD91-4CB1-9ECB-61137BD80BB1",
+                        "87CEEF77-E811-4A2A-9E05-BDD6FA739E4C",
+                        "6EB4DD5E-6C30-4A20-8A59-FF806D4CBF5F",
+                        "68D38E30-F966-4FBF-AC7B-AB91166F5E4E",
+                        "CA25C5CA-365D-46A0-8444-2956FF536BA2",
+                        "D3C809A0-8E7F-4143-8E62-EA82E55075A0",
+                        "2FA7F676-955F-4CD2-AD69-4D181CD4EF97"
+                    ],
+                    "ia_loaded_id": [
+                        "frommerschicago200blac_0"
+                    ],
+                    "ia_box_id": [
+                        "IA1162213",
+                        "IA40100217",
+                        "IA40063819",
+                        "IA40087211",
+                        "IA152401",
+                        "IA119320",
+                        "IA1997406",
+                        "IA1151603",
+                        "IA1996417",
+                        "IA1154801",
+                        "IA177101"
+                    ],
+                    "publisher_facet": [
+                        "Frommer's",
+                        "John Wiley & Sons, Ltd.",
+                        "Wiley",
+                        "Wiley & Sons, Incorporated, John",
+                        "Wiley & Sons, Limited, John",
+                        "Wiley Publishing"
+                    ],
+                    "place_key": [
+                        "chicago",
+                        "chicago_(ill.)",
+                        "grant_park",
+                        "hyde_park",
+                        "illinois",
+                        "lincoln_park",
+                        "magnificent_mile",
+                        "museum_of_science_and_industry",
+                        "sears_tower",
+                        "the_art_institute_of_chicago",
+                        "the_loop"
+                    ],
+                    "subject_facet": [
+                        "Chicago (Ill.)",
+                        "Chicago (ill.), guidebooks",
+                        "Description and travel",
+                        "General",
+                        "Guidebooks",
+                        "Midwest",
+                        "Nonfiction",
+                        "Travel",
+                        "architecture"
+                    ],
+                    "_version_": 1744071742896209934,
+                    "place_facet": [
+                        "Chicago",
+                        "Chicago (Ill.)",
+                        "Grant Park",
+                        "Hyde Park",
+                        "Illinois",
+                        "Lincoln Park",
+                        "Magnificent Mile",
+                        "Museum of Science and Industry",
+                        "Sears Tower",
+                        "The Art Institute of Chicago",
+                        "The Loop"
+                    ],
+                    "lcc_sort": "D--0020.00000000 F76 v. 36 2008",
+                    "author_facet": [
+                        "OL2730173A Elizabeth Canning Blackwell"
+                    ],
+                    "subject_key": [
+                        "architecture",
+                        "chicago_(ill.)",
+                        "chicago_(ill.)_guidebooks",
+                        "description_and_travel",
+                        "general",
+                        "guidebooks",
+                        "midwest",
+                        "nonfiction",
+                        "travel"
+                    ],
+                    "ddc_sort": "917.73110444"
+                },
+                {
+                    "key": "/works/OL1794949W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL18303259M",
+                        "/books/OL13772668M",
+                        "/books/OL22222837M",
+                        "/books/OL17812789M",
+                        "/books/OL7170190M",
+                        "/books/OL13537512M",
+                        "/books/OL7063077M",
+                        "/books/OL20567490M",
+                        "/books/OL7239427M",
+                        "/books/OL7229083M",
+                        "/books/OL7095211M",
+                        "/books/OL19944240M",
+                        "/books/OL7177844M",
+                        "/books/OL15055292M",
+                        "/books/OL6748795M",
+                        "/books/OL6310322M",
+                        "/books/OL6360845M",
+                        "/books/OL23764281M",
+                        "/books/OL6200590M",
+                        "/books/OL5528811M",
+                        "/books/OL4407787M",
+                        "/books/OL4443446M",
+                        "/books/OL5709679M",
+                        "/books/OL8221474M",
+                        "/books/OL11170138M",
+                        "/books/OL9685933M",
+                        "/books/OL9524689M",
+                        "/books/OL9337868M",
+                        "/books/OL1078792M",
+                        "/books/OL7349851M",
+                        "/books/OL9304503M",
+                        "/books/OL21355714M",
+                        "/books/OL11636050M",
+                        "/books/OL11645399M",
+                        "/books/OL11645400M",
+                        "/books/OL12286729M",
+                        "/books/OL12286587M",
+                        "/books/OL9208323M",
+                        "/books/OL11727886M",
+                        "/books/OL11727887M",
+                        "/books/OL9444753M",
+                        "/books/OL11730025M",
+                        "/books/OL11730024M",
+                        "/books/OL9761626M",
+                        "/books/OL11829032M",
+                        "/books/OL11829022M",
+                        "/books/OL8411590M",
+                        "/books/OL11983697M",
+                        "/books/OL11677034M",
+                        "/books/OL11978939M",
+                        "/books/OL12439226M",
+                        "/books/OL11978940M",
+                        "/books/OL11983685M",
+                        "/books/OL24257445M",
+                        "/works/OL1794949W",
+                        "/subjects/fiction",
+                        "/subjects/married_people",
+                        "/subjects/wheat_trade",
+                        "/subjects/economic_conditions",
+                        "/subjects/american_fiction_(fictional_works_by_one_author)",
+                        "/subjects/marriage_fiction",
+                        "/subjects/chicago_(ill.)_fiction",
+                        "/subjects/married_people_fiction",
+                        "/subjects/fiction_psychological",
+                        "/subjects/fiction_family_life_general",
+                        "/subjects/place:chicago_(ill.)",
+                        "/authors/OL215713A"
+                    ],
+                    "title": "The Pit",
+                    "title_suggest": "The Pit",
+                    "subtitle": "A Story of Chicago",
+                    "edition_count": 54,
+                    "edition_key": [
+                        "OL18303259M",
+                        "OL13772668M",
+                        "OL22222837M",
+                        "OL17812789M",
+                        "OL7170190M",
+                        "OL13537512M",
+                        "OL7063077M",
+                        "OL20567490M",
+                        "OL7239427M",
+                        "OL7229083M",
+                        "OL7095211M",
+                        "OL19944240M",
+                        "OL7177844M",
+                        "OL15055292M",
+                        "OL6748795M",
+                        "OL6310322M",
+                        "OL6360845M",
+                        "OL23764281M",
+                        "OL6200590M",
+                        "OL5528811M",
+                        "OL4407787M",
+                        "OL4443446M",
+                        "OL5709679M",
+                        "OL8221474M",
+                        "OL11170138M",
+                        "OL9685933M",
+                        "OL9524689M",
+                        "OL9337868M",
+                        "OL1078792M",
+                        "OL7349851M",
+                        "OL9304503M",
+                        "OL21355714M",
+                        "OL11636050M",
+                        "OL11645399M",
+                        "OL11645400M",
+                        "OL12286729M",
+                        "OL12286587M",
+                        "OL9208323M",
+                        "OL11727886M",
+                        "OL11727887M",
+                        "OL9444753M",
+                        "OL11730025M",
+                        "OL11730024M",
+                        "OL9761626M",
+                        "OL11829032M",
+                        "OL11829022M",
+                        "OL8411590M",
+                        "OL11983697M",
+                        "OL11677034M",
+                        "OL11978939M",
+                        "OL12439226M",
+                        "OL11978940M",
+                        "OL11983685M",
+                        "OL24257445M"
+                    ],
+                    "publish_date": [
+                        "1971",
+                        "1956",
+                        "November 2003",
+                        "August 1, 1994",
+                        "July 6, 2007",
+                        "1934",
+                        "November 15, 2006",
+                        "May 30, 2006",
+                        "1994",
+                        "1995",
+                        "September 1987",
+                        "1937",
+                        "June 1978",
+                        "January 2003",
+                        "1967",
+                        "2010",
+                        "June 1971",
+                        "October 2002",
+                        "June 2003",
+                        "1906",
+                        "June 1976",
+                        "July 19, 2001",
+                        "June 30, 2004",
+                        "1970",
+                        "1922",
+                        "August 9, 2007",
+                        "1903",
+                        "November 8, 2007",
+                        "1908",
+                        "January 2005",
+                        "November 1978",
+                        "1920",
+                        "November 3, 2006",
+                        "1969",
+                        "January 31, 2005",
+                        "September 21, 2007",
+                        "1930"
+                    ],
+                    "publish_year": [
+                        1971,
+                        1956,
+                        1906,
+                        2003,
+                        2006,
+                        1934,
+                        2007,
+                        2002,
+                        1970,
+                        1922,
+                        1987,
+                        1994,
+                        1903,
+                        2001,
+                        1969,
+                        1995,
+                        1908,
+                        1978,
+                        2005,
+                        1937,
+                        1920,
+                        1976,
+                        1967,
+                        2010,
+                        2004,
+                        1930
+                    ],
+                    "first_publish_year": 1903,
+                    "number_of_pages_median": 386,
+                    "lccn": [
+                        "03001580",
+                        "37030674",
+                        "94002084",
+                        "79010998",
+                        "70184738",
+                        "56009747",
+                        "34028425",
+                        "67003234",
+                        "79105109",
+                        "30026623"
+                    ],
+                    "publish_place": [
+                        "London",
+                        "Cambridge, Mass",
+                        "Sydney, [Australia]",
+                        "Garden City, N. Y",
+                        "Garden City, N.Y",
+                        "Gloucester, Mass",
+                        "New York",
+                        "Garden City, N.J",
+                        "Port Washington, N.Y",
+                        "Toronto, Ont",
+                        "Toronto",
+                        "Columbus, Ohio"
+                    ],
+                    "oclc": [
+                        "1836249",
+                        "11832441",
+                        "6474431",
+                        "2236714",
+                        "19854307",
+                        "298736659",
+                        "52481714",
+                        "70048089",
+                        "26736696",
+                        "172982966",
+                        "275996"
+                    ],
+                    "contributor": [
+                        "Norris, Frank, 1870-1902.",
+                        "McElrath, Joseph R.",
+                        "Jones, Gwendolyn.",
+                        "J.J. Little (Firm)",
+                        "Joseph A. McElrath (Introduction)",
+                        "Remington, Frederic, 1861-1909.",
+                        "Doubleday, Page & Company."
+                    ],
+                    "lcc": [
+                        "PS-2472.00000000.P58 1994",
+                        "PZ-0003.00000000.N792 P",
+                        "PS-2472.00000000 P22",
+                        "PS-2472.00000000 P5 1903",
+                        "PZ-0003.00000000.N792 P20",
+                        "PZ-0003.00000000.N792 P15",
+                        "PS-2472.00000000 P13",
+                        "PZ-0003.00000000.N792 P10",
+                        "PS-2472.00000000 P18",
+                        "PS-2472.00000000.P583 1903",
+                        "PS-2472.00000000 P15",
+                        "PS-2472.00000000 P20",
+                        "PZ-0003.00000000.N792 P19",
+                        "PZ-0003.00000000.N792 P6",
+                        "PS-2472.00000000.P6 1903A",
+                        "PS-2472.00000000 P10",
+                        "PS-2472.00000000 P6",
+                        "PS-2472.00000000 P5 1906",
+                        "PZ-0003.00000000.N792 P13",
+                        "PZ-0003.00000000.N792 P22",
+                        "PZ-0003.00000000.N792 P18",
+                        "PS-2472.00000000 P19"
+                    ],
+                    "ddc": [
+                        "813.52",
+                        "813.4",
+                        "813.49"
+                    ],
+                    "isbn": [
+                        "9781414208077",
+                        "0849219604",
+                        "0877207356",
+                        "9781406927344",
+                        "1421980754",
+                        "9781406834680",
+                        "9780849219603",
+                        "9781404326613",
+                        "1582872627",
+                        "9789997526748",
+                        "1419177621",
+                        "1434656357",
+                        "9781595477705",
+                        "9781434656360",
+                        "1435327063",
+                        "9781101173664",
+                        "9781402196256",
+                        "9781434656353",
+                        "1434656365",
+                        "9780675093682",
+                        "9781435327061",
+                        "0837604079",
+                        "675093686",
+                        "1595477705",
+                        "9780877207351",
+                        "9780899680699",
+                        "1404326618",
+                        "9781414208060",
+                        "1435327187",
+                        "1421980649",
+                        "1414243901",
+                        "1406927341",
+                        "9781421980751",
+                        "9781435327184",
+                        "9781414243894",
+                        "9781101171837",
+                        "9781582872629",
+                        "1414243898",
+                        "9781406540086",
+                        "9997526740",
+                        "0844608254",
+                        "9780837604077",
+                        "0665752717",
+                        "9781404326606",
+                        "1414208065",
+                        "9781421980645",
+                        "1402196253",
+                        "0675093686",
+                        "9780844608259",
+                        "9781582877464",
+                        "9781414243900",
+                        "1101173661",
+                        "1414208073",
+                        "0899680690",
+                        "9780760773666",
+                        "9781419177620",
+                        "140432660X",
+                        "0140187588",
+                        "1406834688",
+                        "1406540080",
+                        "1101171839",
+                        "9780140187588",
+                        "0760773661",
+                        "1582877467",
+                        "9780665752711"
+                    ],
+                    "last_modified_i": 1660863677,
+                    "ebook_count_i": 10,
+                    "ebook_access": "public",
+                    "has_fulltext": true,
+                    "public_scan_b": true,
+                    "ia": [
+                        "pitepicofwheatde00norruoft",
+                        "pitstoryofchicag00norrrich",
+                        "pitepicofwheatde00norrrich",
+                        "pitstoryofchicag00norruoft",
+                        "thepitstory00norrrich",
+                        "thepitastory00norrrich",
+                        "cihm_75271",
+                        "pitastorychicag00norrgoog",
+                        "pitstoryofchicag0000norr",
+                        "pitstoryofchicag0000norr_t6o5"
+                    ],
+                    "ia_collection": [
+                        "additional_collections",
+                        "americana",
+                        "binghamton-ol",
+                        "cdl",
+                        "delawarecountydistrictlibrary",
+                        "inlibrary",
+                        "internetarchivebooks",
+                        "library_of_atlantis",
+                        "microfilm",
+                        "openlibrary-d-ol",
+                        "printdisabled",
+                        "robarts",
+                        "rochester-ol",
+                        "toronto",
+                        "trent_university",
+                        "university_of_alberta_libraries",
+                        "university_of_alberta_libraries_microfilm"
+                    ],
+                    "ia_collection_s": "additional_collections;americana;binghamton-ol;cdl;delawarecountydistrictlibrary;inlibrary;internetarchivebooks;library_of_atlantis;microfilm;openlibrary-d-ol;printdisabled;robarts;rochester-ol;toronto;trent_university;university_of_alberta_libraries;university_of_alberta_libraries_microfilm",
+                    "lending_edition_s": "OL7170190M",
+                    "lending_identifier_s": "pitepicofwheatde00norruoft",
+                    "printdisabled_s": "OL6200590M;OL1078792M",
+                    "cover_edition_key": "OL7063077M",
+                    "cover_i": 8244629,
+                    "first_sentence": [
+                        "could discover no pronounced salience. Yet there was no trace, no suggestion of angularity.",
+                        "At eight o'clock in the inner vestibule of the Auditorium Theatre by the window of the box office, Laura Dearborn, her younger sister Page, and their aunt-Aunt Wess-were still waiting for the rest of the theatre-party to appear."
+                    ],
+                    "publisher": [
+                        "Angus & Robertson",
+                        "P. Smith",
+                        "The Modern Library",
+                        "Amsco School Publications",
+                        "Sun dial press, inc.",
+                        "DoubleDay",
+                        "IndyPublish",
+                        "A Wessels",
+                        "Kessinger Publishing",
+                        "Dodo Press",
+                        "A. Wessels",
+                        "P.F. Collier",
+                        "Kennikat Press",
+                        "Peter Smith Pub",
+                        "Penguin USA, Inc.",
+                        "R. Bentley",
+                        "Lightyear Pr",
+                        "Grove Press",
+                        "West Richard",
+                        "Penguin Classics",
+                        "Nelson",
+                        "Amsco School Pubns Inc",
+                        "NuVision Publications",
+                        "Penguin",
+                        "Bentley Publishers",
+                        "Doubleday, Page & Co.",
+                        "C. E. Merrill",
+                        "Hard Press",
+                        "Echo Library",
+                        "T. Nelson",
+                        "IndyPublish.com",
+                        "G.N. Morang",
+                        "Doubleday, Page",
+                        "North Books",
+                        "Doubleday, Doran",
+                        "Morang",
+                        "Adamant Media Corporation",
+                        "BiblioBazaar"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL215713A"
+                    ],
+                    "author_name": [
+                        "Frank Norris"
+                    ],
+                    "place": [
+                        "Chicago (Ill.)"
+                    ],
+                    "subject": [
+                        "Fiction",
+                        "Married people",
+                        "Wheat trade",
+                        "Economic conditions",
+                        "American fiction (fictional works by one author)",
+                        "Marriage, fiction",
+                        "Chicago (ill.), fiction",
+                        "Married people, fiction",
+                        "Fiction, psychological",
+                        "Fiction, family life, general"
+                    ],
+                    "id_goodreads": [
+                        "2531103",
+                        "2326214",
+                        "156827",
+                        "2120503",
+                        "1262973",
+                        "1822446",
+                        "2326213",
+                        "670991",
+                        "7226667",
+                        "2951884",
+                        "2025611",
+                        "294151"
+                    ],
+                    "id_librarything": [
+                        "11891"
+                    ],
+                    "id_overdrive": [
+                        "6B94C152-AC8B-49D8-B285-6200DEA90972"
+                    ],
+                    "ia_box_id": [
+                        "IA1634207",
+                        "IA40088515"
+                    ],
+                    "publisher_facet": [
+                        "A Wessels",
+                        "A. Wessels",
+                        "Adamant Media Corporation",
+                        "Amsco School Publications",
+                        "Amsco School Pubns Inc",
+                        "Angus & Robertson",
+                        "Bentley Publishers",
+                        "BiblioBazaar",
+                        "C. E. Merrill",
+                        "Dodo Press",
+                        "DoubleDay",
+                        "Doubleday, Doran",
+                        "Doubleday, Page",
+                        "Doubleday, Page & Co.",
+                        "Echo Library",
+                        "G.N. Morang",
+                        "Grove Press",
+                        "Hard Press",
+                        "IndyPublish",
+                        "IndyPublish.com",
+                        "Kennikat Press",
+                        "Kessinger Publishing",
+                        "Lightyear Pr",
+                        "Morang",
+                        "Nelson",
+                        "North Books",
+                        "NuVision Publications",
+                        "P. Smith",
+                        "P.F. Collier",
+                        "Penguin",
+                        "Penguin Classics",
+                        "Penguin USA, Inc.",
+                        "Peter Smith Pub",
+                        "R. Bentley",
+                        "Sun dial press, inc.",
+                        "T. Nelson",
+                        "The Modern Library",
+                        "West Richard"
+                    ],
+                    "place_key": [
+                        "chicago_(ill.)"
+                    ],
+                    "subject_facet": [
+                        "American fiction (fictional works by one author)",
+                        "Chicago (ill.), fiction",
+                        "Economic conditions",
+                        "Fiction",
+                        "Fiction, family life, general",
+                        "Fiction, psychological",
+                        "Marriage, fiction",
+                        "Married people",
+                        "Married people, fiction",
+                        "Wheat trade"
+                    ],
+                    "_version_": 1741541800685862922,
+                    "place_facet": [
+                        "Chicago (Ill.)"
+                    ],
+                    "lcc_sort": "PS-2472.00000000.P583 1903",
+                    "author_facet": [
+                        "OL215713A Frank Norris"
+                    ],
+                    "subject_key": [
+                        "american_fiction_(fictional_works_by_one_author)",
+                        "chicago_(ill.)_fiction",
+                        "economic_conditions",
+                        "fiction",
+                        "fiction_family_life_general",
+                        "fiction_psychological",
+                        "marriage_fiction",
+                        "married_people",
+                        "married_people_fiction",
+                        "wheat_trade"
+                    ],
+                    "ddc_sort": "813.52"
+                },
+                {
+                    "key": "/works/OL37599W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL13594802M",
+                        "/books/OL1617428M",
+                        "/books/OL1886257M",
+                        "/books/OL24203165M",
+                        "/books/OL22314556M",
+                        "/books/OL17126037M",
+                        "/books/OL22813563M",
+                        "/books/OL7676216M",
+                        "/books/OL7910491M",
+                        "/books/OL9135530M",
+                        "/works/OL37599W",
+                        "/subjects/fiction",
+                        "/subjects/murder",
+                        "/subjects/businessmen",
+                        "/subjects/men",
+                        "/subjects/new_york_times_reviewed",
+                        "/subjects/place:chicago_(ill.)",
+                        "/subjects/place:illinois",
+                        "/subjects/place:chicago",
+                        "/authors/OL4416468A"
+                    ],
+                    "title": "Chicago loop",
+                    "title_suggest": "Chicago loop",
+                    "edition_count": 10,
+                    "edition_key": [
+                        "OL13594802M",
+                        "OL1617428M",
+                        "OL1886257M",
+                        "OL24203165M",
+                        "OL22314556M",
+                        "OL17126037M",
+                        "OL22813563M",
+                        "OL7676216M",
+                        "OL7910491M",
+                        "OL9135530M"
+                    ],
+                    "publish_date": [
+                        "April 13, 1993",
+                        "1991",
+                        "1990",
+                        "January 2002",
+                        "December 4, 1993"
+                    ],
+                    "publish_year": [
+                        1991,
+                        2002,
+                        1990,
+                        1993
+                    ],
+                    "first_publish_year": 1990,
+                    "number_of_pages_median": 192,
+                    "lccn": [
+                        "91159983",
+                        "90047373"
+                    ],
+                    "publish_place": [
+                        "London",
+                        "New York"
+                    ],
+                    "oclc": [
+                        "463648167",
+                        "29683685"
+                    ],
+                    "lcc": [
+                        "PS-3570.00000000.H4 C45 1990",
+                        "PS-3570.00000000.H4 C45 1991"
+                    ],
+                    "ddc": [
+                        "813",
+                        "813.54"
+                    ],
+                    "isbn": [
+                        "9780679401889",
+                        "8472232964",
+                        "9780804111614",
+                        "9780241129494",
+                        "0517098075",
+                        "9788472232969",
+                        "0241129494",
+                        "9780517098073",
+                        "0679401881",
+                        "9780140131352",
+                        "0140131353",
+                        "0804111618"
+                    ],
+                    "last_modified_i": 1660879290,
+                    "ebook_count_i": 3,
+                    "ebook_access": "borrowable",
+                    "has_fulltext": true,
+                    "public_scan_b": false,
+                    "ia": [
+                        "chicagoloop0000ther_w0w9",
+                        "chicagoloop00therrich",
+                        "chicagoloop00ther"
+                    ],
+                    "ia_collection": [
+                        "americana",
+                        "americanuniversity-ol",
+                        "barryuniversity-ol",
+                        "binghamton-ol",
+                        "dartmouthlibrary-ol",
+                        "gwulibraries-ol",
+                        "inlibrary",
+                        "internetarchivebooks",
+                        "printdisabled",
+                        "rochester-ol",
+                        "schroederlibrary-ol",
+                        "unb-ol",
+                        "universityofarizona-ol",
+                        "universityofcoloradoboulder-ol",
+                        "universityofoklahoma-ol",
+                        "wilsoncollege-ol"
+                    ],
+                    "ia_collection_s": "americana;americanuniversity-ol;barryuniversity-ol;binghamton-ol;dartmouthlibrary-ol;gwulibraries-ol;inlibrary;internetarchivebooks;printdisabled;rochester-ol;schroederlibrary-ol;unb-ol;universityofarizona-ol;universityofcoloradoboulder-ol;universityofoklahoma-ol;wilsoncollege-ol",
+                    "lending_edition_s": "OL1617428M",
+                    "lending_identifier_s": "chicagoloop0000ther_w0w9",
+                    "printdisabled_s": "OL1617428M;OL1886257M;OL24203165M",
+                    "cover_edition_key": "OL24203165M",
+                    "cover_i": 6473562,
+                    "publisher": [
+                        "Random House",
+                        "Tusquets",
+                        "Hamish Hamilton",
+                        "Ivy Books",
+                        "Penguin",
+                        "Random House Value Publishing",
+                        "Random House/Hamish Hamilton"
+                    ],
+                    "language": [
+                        "eng",
+                        "spa"
+                    ],
+                    "author_key": [
+                        "OL4416468A"
+                    ],
+                    "author_name": [
+                        "Paul Theroux"
+                    ],
+                    "author_alternative_name": [
+                        "Paul THEROUX",
+                        "Theroux, Paul.",
+                        "Paul. Theroux",
+                        "PAUL THEROUX",
+                        "Theroux Paul"
+                    ],
+                    "place": [
+                        "Chicago (Ill.)",
+                        "Illinois",
+                        "Chicago"
+                    ],
+                    "subject": [
+                        "Fiction",
+                        "Murder",
+                        "Businessmen",
+                        "Men",
+                        "New York Times reviewed"
+                    ],
+                    "id_goodreads": [
+                        "3488281",
+                        "4431184",
+                        "149359",
+                        "3306694",
+                        "149362"
+                    ],
+                    "id_librarything": [
+                        "168001"
+                    ],
+                    "ia_box_id": [
+                        "IA114712",
+                        "IA40092603",
+                        "IA105106"
+                    ],
+                    "publisher_facet": [
+                        "Hamish Hamilton",
+                        "Ivy Books",
+                        "Penguin",
+                        "Random House",
+                        "Random House Value Publishing",
+                        "Random House/Hamish Hamilton",
+                        "Tusquets"
+                    ],
+                    "place_key": [
+                        "chicago",
+                        "chicago_(ill.)",
+                        "illinois"
+                    ],
+                    "subject_facet": [
+                        "Businessmen",
+                        "Fiction",
+                        "Men",
+                        "Murder",
+                        "New York Times reviewed"
+                    ],
+                    "_version_": 1741558165885943812,
+                    "place_facet": [
+                        "Chicago",
+                        "Chicago (Ill.)",
+                        "Illinois"
+                    ],
+                    "lcc_sort": "PS-3570.00000000.H4 C45 1990",
+                    "author_facet": [
+                        "OL4416468A Paul Theroux"
+                    ],
+                    "subject_key": [
+                        "businessmen",
+                        "fiction",
+                        "men",
+                        "murder",
+                        "new_york_times_reviewed"
+                    ],
+                    "ddc_sort": "813.54"
+                },
+                {
+                    "key": "/works/OL25572390W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL35464629M",
+                        "/books/OL35457612M",
+                        "/books/OL35467793M",
+                        "/books/OL35463664M",
+                        "/books/OL35462417M",
+                        "/books/OL35462133M",
+                        "/books/OL36223618M",
+                        "/books/OL39101749M",
+                        "/books/OL35984324M",
+                        "/books/OL38171842M",
+                        "/books/OL36033357M",
+                        "/books/OL34331028M",
+                        "/books/OL38551779M",
+                        "/books/OL38531279M",
+                        "/books/OL38495280M",
+                        "/books/OL38478642M",
+                        "/books/OL38456454M",
+                        "/books/OL38435662M",
+                        "/books/OL38417922M",
+                        "/books/OL38146324M",
+                        "/books/OL38140971M",
+                        "/books/OL36997676M",
+                        "/books/OL36989807M",
+                        "/books/OL36963840M",
+                        "/books/OL36596466M",
+                        "/books/OL36491423M",
+                        "/books/OL36094920M",
+                        "/books/OL36073579M",
+                        "/books/OL34329323M",
+                        "/books/OL34298286M",
+                        "/books/OL38175353M",
+                        "/books/OL38168246M",
+                        "/works/OL25572390W",
+                        "/authors/OL6788569A"
+                    ],
+                    "title": "Pit",
+                    "title_suggest": "Pit",
+                    "edition_count": 32,
+                    "edition_key": [
+                        "OL35464629M",
+                        "OL35457612M",
+                        "OL35467793M",
+                        "OL35463664M",
+                        "OL35462417M",
+                        "OL35462133M",
+                        "OL36223618M",
+                        "OL39101749M",
+                        "OL35984324M",
+                        "OL38171842M",
+                        "OL36033357M",
+                        "OL34331028M",
+                        "OL38551779M",
+                        "OL38531279M",
+                        "OL38495280M",
+                        "OL38478642M",
+                        "OL38456454M",
+                        "OL38435662M",
+                        "OL38417922M",
+                        "OL38146324M",
+                        "OL38140971M",
+                        "OL36997676M",
+                        "OL36989807M",
+                        "OL36963840M",
+                        "OL36596466M",
+                        "OL36491423M",
+                        "OL36094920M",
+                        "OL36073579M",
+                        "OL34329323M",
+                        "OL34298286M",
+                        "OL38175353M",
+                        "OL38168246M"
+                    ],
+                    "publish_date": [
+                        "2021",
+                        "2008",
+                        "2016",
+                        "2009",
+                        "2019",
+                        "2020",
+                        "2018",
+                        "2022"
+                    ],
+                    "publish_year": [
+                        2021,
+                        2008,
+                        2016,
+                        2009,
+                        2019,
+                        2020,
+                        2018,
+                        2022
+                    ],
+                    "first_publish_year": 2008,
+                    "number_of_pages_median": 425,
+                    "isbn": [
+                        "9798706640002",
+                        "9798791203328",
+                        "9798747329010",
+                        "143851252X",
+                        "1595474927",
+                        "9781377310671",
+                        "1702391280",
+                        "9798791210074",
+                        "9781458904515",
+                        "9781504042369",
+                        "9798546054656",
+                        "9798758598764",
+                        "0217919804",
+                        "0554378280",
+                        "9781595474926",
+                        "9798800057379",
+                        "9781702391283",
+                        "9798762049580",
+                        "9798473228939",
+                        "9798624020627",
+                        "9798787724707",
+                        "9798462705519",
+                        "9798762284516",
+                        "9798474237244",
+                        "9780554378282",
+                        "1504042360",
+                        "9798530957529",
+                        "9780554285252",
+                        "9798450428949",
+                        "1377310671",
+                        "9781438512525",
+                        "9798666747179",
+                        "9780217919807",
+                        "9798403751209",
+                        "0554285258",
+                        "1458904512",
+                        "9798696095363",
+                        "9798539220075",
+                        "9798512504031",
+                        "9798720449032",
+                        "9798472473279"
+                    ],
+                    "last_modified_i": 1658389427,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "NuVision Publications, LLC",
+                        "Standard Publications, Inc.",
+                        "Open Road Integrated Media, Inc.",
+                        "General Books LLC",
+                        "Creative Media Partners, LLC",
+                        "Independently Published"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL6788569A"
+                    ],
+                    "author_name": [
+                        "Frank Norris"
+                    ],
+                    "publisher_facet": [
+                        "Creative Media Partners, LLC",
+                        "General Books LLC",
+                        "Independently Published",
+                        "NuVision Publications, LLC",
+                        "Open Road Integrated Media, Inc.",
+                        "Standard Publications, Inc."
+                    ],
+                    "_version_": 1738947352930025472,
+                    "author_facet": [
+                        "OL6788569A Frank Norris"
+                    ]
+                },
+                {
+                    "key": "/works/OL4457952W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL24246675M",
+                        "/books/OL22983685M",
+                        "/books/OL38266684M",
+                        "/books/OL28466566M",
+                        "/works/OL4457952W",
+                        "/subjects/history",
+                        "/subjects/nonfiction",
+                        "/subjects/sociology",
+                        "/subjects/chicago_(ill.)_history",
+                        "/subjects/place:chicago_(ill.)",
+                        "/authors/OL888399A"
+                    ],
+                    "title": "Chicago",
+                    "title_suggest": "Chicago",
+                    "edition_count": 4,
+                    "edition_key": [
+                        "OL24246675M",
+                        "OL22983685M",
+                        "OL38266684M",
+                        "OL28466566M"
+                    ],
+                    "publish_date": [
+                        "2010",
+                        "2011",
+                        "2009"
+                    ],
+                    "publish_year": [
+                        2010,
+                        2011,
+                        2009
+                    ],
+                    "first_publish_year": 2009,
+                    "number_of_pages_median": 464,
+                    "lccn": [
+                        "2009001192"
+                    ],
+                    "publish_place": [
+                        "London",
+                        "Chicago"
+                    ],
+                    "oclc": [
+                        "489140984"
+                    ],
+                    "lcc": [
+                        "F--0548.30000000.P339 2009",
+                        "F--0548.00000000"
+                    ],
+                    "ddc": [
+                        "977.311"
+                    ],
+                    "isbn": [
+                        "9780226644325",
+                        "0226644324",
+                        "1282426761",
+                        "0226644316",
+                        "0226644286",
+                        "9780226644318",
+                        "9780226644288",
+                        "9781282426764"
+                    ],
+                    "last_modified_i": 1655537437,
+                    "ebook_count_i": 1,
+                    "ebook_access": "printdisabled",
+                    "has_fulltext": true,
+                    "public_scan_b": false,
+                    "ia": [
+                        "chicagobiography00pacy"
+                    ],
+                    "ia_collection_s": "librarygenesis;printdisabled",
+                    "printdisabled_s": "OL22983685M",
+                    "cover_edition_key": "OL22983685M",
+                    "cover_i": 9641809,
+                    "publisher": [
+                        "University of Chicago Press"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL888399A"
+                    ],
+                    "author_name": [
+                        "Dominic A. Pacyga"
+                    ],
+                    "place": [
+                        "Chicago (Ill.)"
+                    ],
+                    "subject": [
+                        "History",
+                        "Nonfiction",
+                        "Sociology",
+                        "Chicago (ill.), history"
+                    ],
+                    "id_goodreads": [
+                        "6681168"
+                    ],
+                    "id_librarything": [
+                        "8762170"
+                    ],
+                    "id_overdrive": [
+                        "C12DAB4E-E27D-429D-8A0B-0598EF62C692"
+                    ],
+                    "publisher_facet": [
+                        "University of Chicago Press"
+                    ],
+                    "place_key": [
+                        "chicago_(ill.)"
+                    ],
+                    "subject_facet": [
+                        "Chicago (ill.), history",
+                        "History",
+                        "Nonfiction",
+                        "Sociology"
+                    ],
+                    "_version_": 1735956825968214017,
+                    "place_facet": [
+                        "Chicago (Ill.)"
+                    ],
+                    "lcc_sort": "F--0548.30000000.P339 2009",
+                    "author_facet": [
+                        "OL888399A Dominic A. Pacyga"
+                    ],
+                    "subject_key": [
+                        "chicago_(ill.)_history",
+                        "history",
+                        "nonfiction",
+                        "sociology"
+                    ],
+                    "ddc_sort": "977.311"
+                }
+            ],
+            "num_found": 67049,
+            "q": "chicago",
+            "offset": null
+        }
+  recorded_at: Tue, 27 Sep 2022 14:37:12 GMT
+recorded_with: VCR 6.1.0
