@@ -16,5 +16,11 @@ class BaseService
         faraday.params['appid'] = ENV['weather_api_key']
       end
     end
+
+    def book_conn
+      Faraday.new(url: "https://openlibrary.org") do |faraday|
+      end
+    end
+
   end
 end

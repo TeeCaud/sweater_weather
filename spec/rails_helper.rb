@@ -67,10 +67,12 @@ end
 VCR.configure do |config|
   config.cassette_library_dir = "spec/fixtures/vcr_cassettes"
   config.hook_into :webmock
-  config.default_cassette_options = { re_record_interval: 5.seconds }
+  config.default_cassette_options = { re_record_interval: 100.days }
   config.filter_sensitive_data('DONT SHOW MY API KEY') { ENV['mapquest_api_key']}
-  config.filter_sensitive_data('DONT SHOW MY API KEY') { ENV['weather_api_key']}
+  config.filter_sensitive_data('hidden key') { ENV['weather_api_key']}
+  config.allow_http_connections_when_no_cassette = true
   config.configure_rspec_metadata!
+  config.debug_logger = File.open('record.log', 'w')
 end
 Shoulda::Matchers.configure do |config|
   config.integrate do |with|
