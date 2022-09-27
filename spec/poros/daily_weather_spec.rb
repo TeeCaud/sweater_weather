@@ -3,9 +3,7 @@ require 'rails_helper'
 RSpec.describe DailyWeather, :vcr do
   describe 'daily weather' do
     it 'exists with attributes' do
-      lat = '41.883229'
-      lon = '-87.632398'
-      object = WeatherFacade.daily_weather(lat, lon).first
+      object = WeatherFacade.daily_weather('denver, co').first
       expect(object).to be_a DailyWeather
       expect(object.dt).to be_a String
       expect(object.sunrise).to be_a String

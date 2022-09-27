@@ -2,8 +2,321 @@
 http_interactions:
 - request:
     method: get
+    uri: https://openlibrary.org/search.json?limit=5&q=denver,co
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Tue, 27 Sep 2022 14:37:10 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"SR 1 4.334 TT 0 4.335"'
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+            "numFound": 47113,
+            "start": 0,
+            "numFoundExact": true,
+            "docs": [
+                {
+                    "key": "/works/OL8503198W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL10909613M",
+                        "/works/OL8503198W",
+                        "/authors/OL2843451A"
+                    ],
+                    "title": "Denver, Co",
+                    "title_suggest": "Denver, Co",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL10909613M"
+                    ],
+                    "publish_date": [
+                        "January 2001"
+                    ],
+                    "publish_year": [
+                        2001
+                    ],
+                    "first_publish_year": 2001,
+                    "isbn": [
+                        "0762507845",
+                        "9780762507849"
+                    ],
+                    "last_modified_i": 1338943517,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "Universal Map Enterprises"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL2843451A"
+                    ],
+                    "author_name": [
+                        "Universal Map"
+                    ],
+                    "publisher_facet": [
+                        "Universal Map Enterprises"
+                    ],
+                    "_version_": 1735677215044009984,
+                    "author_facet": [
+                        "OL2843451A Universal Map"
+                    ]
+                },
+                {
+                    "key": "/works/OL4437736W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL10911511M",
+                        "/works/OL4437736W",
+                        "/authors/OL882946A"
+                    ],
+                    "title": "Denver Co Deluxe Flip Map",
+                    "title_suggest": "Denver Co Deluxe Flip Map",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL10911511M"
+                    ],
+                    "publish_date": [
+                        "January 2003"
+                    ],
+                    "publish_year": [
+                        2003
+                    ],
+                    "first_publish_year": 2003,
+                    "isbn": [
+                        "0762557362",
+                        "9780762557363"
+                    ],
+                    "last_modified_i": 1260838560,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "Universal Map Enterprises"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL882946A"
+                    ],
+                    "author_name": [
+                        "Laura Ryder"
+                    ],
+                    "publisher_facet": [
+                        "Universal Map Enterprises"
+                    ],
+                    "_version_": 1735672139959238658,
+                    "author_facet": [
+                        "OL882946A Laura Ryder"
+                    ]
+                },
+                {
+                    "key": "/works/OL8808821W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL8537031M",
+                        "/works/OL8808821W",
+                        "/authors/OL3010394A"
+                    ],
+                    "title": "University of Denver Co 2007",
+                    "title_suggest": "University of Denver Co 2007",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL8537031M"
+                    ],
+                    "publish_date": [
+                        "July 1, 2006"
+                    ],
+                    "publish_year": [
+                        2006
+                    ],
+                    "first_publish_year": 2006,
+                    "number_of_pages_median": 180,
+                    "oclc": [
+                        "150368610"
+                    ],
+                    "isbn": [
+                        "9781427401687",
+                        "1427401683"
+                    ],
+                    "last_modified_i": 1304171421,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "cover_edition_key": "OL8537031M",
+                    "cover_i": 1847337,
+                    "publisher": [
+                        "College Prowler"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL3010394A"
+                    ],
+                    "author_name": [
+                        "College Prowler"
+                    ],
+                    "id_goodreads": [
+                        "2985742"
+                    ],
+                    "publisher_facet": [
+                        "College Prowler"
+                    ],
+                    "_version_": 1735677464197201922,
+                    "author_facet": [
+                        "OL3010394A College Prowler"
+                    ]
+                },
+                {
+                    "key": "/works/OL10910782M",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL10910782M",
+                        "/works/OL10910782M"
+                    ],
+                    "title": "Denver, Co Vicinity (City Wall Maps)",
+                    "title_suggest": "Denver, Co Vicinity (City Wall Maps)",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL10910782M"
+                    ],
+                    "publish_date": [
+                        "January 2001"
+                    ],
+                    "publish_year": [
+                        2001
+                    ],
+                    "first_publish_year": 2001,
+                    "isbn": [
+                        "0762538627",
+                        "9780762538621"
+                    ],
+                    "last_modified_i": 1655272482,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "Universal Map Enterprises"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "publisher_facet": [
+                        "Universal Map Enterprises"
+                    ],
+                    "_version_": 1735678998732603392
+                },
+                {
+                    "key": "/works/OL8415118W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL7900786M",
+                        "/works/OL8415118W",
+                        "/authors/OL2806763A"
+                    ],
+                    "title": "Five Points Neighborhood of Denver  (CO)",
+                    "title_suggest": "Five Points Neighborhood of Denver  (CO)",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL7900786M"
+                    ],
+                    "publish_date": [
+                        "June 11, 2001"
+                    ],
+                    "publish_year": [
+                        2001
+                    ],
+                    "first_publish_year": 2001,
+                    "number_of_pages_median": 128,
+                    "oclc": [
+                        "47691535"
+                    ],
+                    "isbn": [
+                        "0738518700",
+                        "9780738518701"
+                    ],
+                    "last_modified_i": 1303742645,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "cover_edition_key": "OL7900786M",
+                    "cover_i": 1371298,
+                    "first_sentence": [
+                        "After the Civil War, freed slaves came west from the south looking for work."
+                    ],
+                    "publisher": [
+                        "Arcadia  Publishing (SC)"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL2806763A"
+                    ],
+                    "author_name": [
+                        "Laura M. Mauck"
+                    ],
+                    "id_librarything": [
+                        "3305602"
+                    ],
+                    "publisher_facet": [
+                        "Arcadia  Publishing (SC)"
+                    ],
+                    "_version_": 1735676935354187777,
+                    "author_facet": [
+                        "OL2806763A Laura M. Mauck"
+                    ]
+                }
+            ],
+            "num_found": 47113,
+            "q": "denver,co",
+            "offset": null
+        }
+  recorded_at: Tue, 27 Sep 2022 14:37:10 GMT
+- request:
+    method: get
     uri: https://www.mapquestapi.com/geocoding/v1/address?content_type=application/json&key=DONT
-      SHOW MY API KEY&location=denver,%20co
+      SHOW MY API KEY&location=denver,co
     body:
       encoding: US-ASCII
       string: ''
@@ -20,7 +333,7 @@ http_interactions:
       message: ''
     headers:
       Date:
-      - Tue, 27 Sep 2022 14:36:56 GMT
+      - Tue, 27 Sep 2022 14:37:10 GMT
       Content-Type:
       - application/json;charset=UTF-8
       Content-Length:
@@ -36,13 +349,13 @@ http_interactions:
       Geocodetransactioncount:
       - '1'
       Last-Modified:
-      - Tue, 27 Sep 2022 14:36:56 GMT
+      - Tue, 27 Sep 2022 14:37:10 GMT
       Pragma:
       - no-cache
       Reversegeocodetransactioncount:
       - '0'
       Set-Cookie:
-      - JSESSIONID=0D758BCBFB5B7E267C6B4496F40189E2; Path=/; HttpOnly; Secure
+      - JSESSIONID=2E88E15F9468045D5BC8DB36ABFAF01A; Path=/; HttpOnly; Secure
       X-Vz-Migration-Api:
       - 'false'
       Status:
@@ -56,13 +369,12 @@ http_interactions:
       encoding: UTF-8
       string: '{"info":{"statuscode":0,"copyright":{"text":"\u00A9 2022 MapQuest,
         Inc.","imageUrl":"http://api.mqcdn.com/res/mqlogo.gif","imageAltText":"\u00A9
-        2022 MapQuest, Inc."},"messages":[]},"options":{"maxResults":-1,"thumbMaps":true,"ignoreLatLngInput":false},"results":[{"providedLocation":{"location":"denver,
-        co"},"locations":[{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"Denver","adminArea5Type":"City","adminArea4":"Denver
+        2022 MapQuest, Inc."},"messages":[]},"options":{"maxResults":-1,"thumbMaps":true,"ignoreLatLngInput":false},"results":[{"providedLocation":{"location":"denver,co"},"locations":[{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"Denver","adminArea5Type":"City","adminArea4":"Denver
         County","adminArea4Type":"County","adminArea3":"CO","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A5XAX","geocodeQuality":"CITY","dragPoint":false,"sideOfStreet":"N","linkId":"282041090","unknownInput":"","type":"s","latLng":{"lat":39.738453,"lng":-104.984853},"displayLatLng":{"lat":39.738453,"lng":-104.984853},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=DONT
-        SHOW MY API KEY&type=map&size=225,160&locations=39.738453,-104.984853|marker-sm-50318A-1&scalebar=true&zoom=12&rand=-1539656672"},{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"","adminArea5Type":"City","adminArea4":"Denver
+        SHOW MY API KEY&type=map&size=225,160&locations=39.738453,-104.984853|marker-sm-50318A-1&scalebar=true&zoom=12&rand=-1696507471"},{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"","adminArea5Type":"City","adminArea4":"Denver
         County","adminArea4Type":"County","adminArea3":"CO","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A4XAX","geocodeQuality":"COUNTY","dragPoint":false,"sideOfStreet":"N","linkId":"282932003","unknownInput":"","type":"s","latLng":{"lat":39.738453,"lng":-104.984853},"displayLatLng":{"lat":39.738453,"lng":-104.984853},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=DONT
-        SHOW MY API KEY&type=map&size=225,160&locations=39.738453,-104.984853|marker-sm-50318A-2&scalebar=true&zoom=9&rand=1683172158"}]}]}'
-  recorded_at: Tue, 27 Sep 2022 14:36:56 GMT
+        SHOW MY API KEY&type=map&size=225,160&locations=39.738453,-104.984853|marker-sm-50318A-2&scalebar=true&zoom=9&rand=-2146954750"}]}]}'
+  recorded_at: Tue, 27 Sep 2022 14:37:10 GMT
 - request:
     method: get
     uri: https://api.openweathermap.org/data/2.5/onecall?appid=hidden key&content_type=application/json&exclude=minutely,alerts&lat=39.738453&lon=-104.984853&units=imperial
@@ -84,7 +396,7 @@ http_interactions:
       Server:
       - openresty
       Date:
-      - Tue, 27 Sep 2022 14:37:00 GMT
+      - Tue, 27 Sep 2022 14:37:11 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -101,7 +413,7 @@ http_interactions:
       - GET, POST
     body:
       encoding: UTF-8
-      string: '{"lat":39.7385,"lon":-104.9849,"timezone":"America/Denver","timezone_offset":-21600,"current":{"dt":1664289419,"sunrise":1664283136,"sunset":1664326167,"temp":61.48,"feels_like":59.49,"pressure":1021,"humidity":46,"dew_point":40.53,"uvi":1.08,"clouds":7,"visibility":10000,"wind_speed":1.88,"wind_deg":163,"wind_gust":2.35,"weather":[{"id":800,"main":"Clear","description":"clear
+      string: '{"lat":39.7385,"lon":-104.9849,"timezone":"America/Denver","timezone_offset":-21600,"current":{"dt":1664289420,"sunrise":1664283136,"sunset":1664326167,"temp":61.48,"feels_like":59.49,"pressure":1021,"humidity":46,"dew_point":40.53,"uvi":1.08,"clouds":7,"visibility":10000,"wind_speed":1.88,"wind_deg":163,"wind_gust":2.35,"weather":[{"id":800,"main":"Clear","description":"clear
         sky","icon":"01d"}]},"hourly":[{"dt":1664287200,"temp":61.92,"feels_like":59.83,"pressure":1021,"humidity":43,"dew_point":39.2,"uvi":0.27,"clouds":7,"visibility":10000,"wind_speed":1.32,"wind_deg":155,"wind_gust":1.86,"weather":[{"id":800,"main":"Clear","description":"clear
         sky","icon":"01d"}],"pop":0},{"dt":1664290800,"temp":61.48,"feels_like":59.49,"pressure":1021,"humidity":46,"dew_point":40.53,"uvi":1.08,"clouds":7,"visibility":10000,"wind_speed":1.88,"wind_deg":163,"wind_gust":2.35,"weather":[{"id":800,"main":"Clear","description":"clear
         sky","icon":"01d"}],"pop":0},{"dt":1664294400,"temp":63.19,"feels_like":61.14,"pressure":1021,"humidity":41,"dew_point":39.13,"uvi":2.36,"clouds":7,"visibility":10000,"wind_speed":2.53,"wind_deg":125,"wind_gust":3.06,"weather":[{"id":800,"main":"Clear","description":"clear
@@ -159,5 +471,5 @@ http_interactions:
         rain","icon":"10d"}],"clouds":95,"pop":0.87,"rain":2.04,"uvi":6},{"dt":1664820000,"sunrise":1664801880,"sunset":1664843980,"moonrise":1664832480,"moonset":0,"moon_phase":0.28,"temp":{"day":63.37,"min":53.28,"max":66.74,"night":53.76,"eve":54.45,"morn":53.28},"feels_like":{"day":61.63,"night":52.12,"eve":53.31,"morn":51.93},"pressure":1020,"humidity":47,"dew_point":42.53,"wind_speed":11.95,"wind_deg":172,"wind_gust":14.65,"weather":[{"id":501,"main":"Rain","description":"moderate
         rain","icon":"10d"}],"clouds":74,"pop":0.71,"rain":7.5,"uvi":6},{"dt":1664906400,"sunrise":1664888338,"sunset":1664930283,"moonrise":1664921700,"moonset":1664865480,"moon_phase":0.31,"temp":{"day":61.59,"min":53.04,"max":66.58,"night":62.85,"eve":65.37,"morn":53.04},"feels_like":{"day":59.67,"night":61.05,"eve":63.48,"morn":51.42},"pressure":1021,"humidity":47,"dew_point":40.84,"wind_speed":7.4,"wind_deg":110,"wind_gust":7.52,"weather":[{"id":803,"main":"Clouds","description":"broken
         clouds","icon":"04d"}],"clouds":60,"pop":0.49,"uvi":6}]}'
-  recorded_at: Tue, 27 Sep 2022 14:37:00 GMT
+  recorded_at: Tue, 27 Sep 2022 14:37:11 GMT
 recorded_with: VCR 6.1.0
