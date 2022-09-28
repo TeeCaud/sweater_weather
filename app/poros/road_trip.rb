@@ -11,15 +11,28 @@ class RoadTrip
   private
 
   def format_travel_time(time)
+    if self.get_hours(time) < 24
     time.to_datetime.strftime("%H hours, %M minutes")
+    else
+      day = time.split(':')[0].to_i/24
+      hours = time.split(':')[0].to_i - day * 24
+      "#{day} days, #{hours} hours"
+    end
   end
 
   def destination_weather(location, index)
+    if index < 48
     eta_weather = WeatherService.get_weather(location)[:hourly][index - 1]
     { temperature: eta_weather[:temp], conditions: eta_weather[:weather][0][:description] }
+  else
+    day = index / 24 - 1
+    daily_weather = WeatherService.get_weather(location)[:daily][day]
+    { temperatire: daily_weather[:temp][:day].to_i, conditions: daily_weather[:weather][0][:description] }
+  end
   end
 
   def get_hours(time)
-      time.to_datetime.strftime("%H").to_i
+    array = time.split(':')
+    array[0].to_i
   end
 end

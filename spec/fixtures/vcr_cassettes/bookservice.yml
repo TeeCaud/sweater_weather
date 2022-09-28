@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx/1.18.0 (Ubuntu)
       Date:
-      - Wed, 28 Sep 2022 00:15:29 GMT
+      - Wed, 28 Sep 2022 23:15:25 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -35,14 +35,14 @@ http_interactions:
       Access-Control-Max-Age:
       - '86400'
       X-Ol-Stats:
-      - '"SR 1 0.751 TT 0 0.754"'
+      - '"SR 1 0.096 TT 0 0.099"'
       Referrer-Policy:
       - no-referrer-when-downgrade
     body:
       encoding: UTF-8
       string: |-
         {
-            "numFound": 67049,
+            "numFound": 67050,
             "start": 0,
             "numFoundExact": true,
             "docs": [
@@ -1536,9 +1536,9 @@ http_interactions:
                     "ddc_sort": "977.311"
                 }
             ],
-            "num_found": 67049,
+            "num_found": 67050,
             "q": "chicago",
             "offset": null
         }
-  recorded_at: Wed, 28 Sep 2022 00:15:29 GMT
+  recorded_at: Wed, 28 Sep 2022 23:15:25 GMT
 recorded_with: VCR 6.1.0

@@ -8,7 +8,7 @@ class GeocoderFacade
     def get_directions(start_city, end_city)
       parsed_json = GeocoderService.get_directions(start_city, end_city)
 
-      if parsed_json[:info][:messages].include?('Unable to calculate route.')
+      if parsed_json[:info][:messages].present?
         'Invalid Route'
       else
         parsed_json[:route][:formattedTime]
