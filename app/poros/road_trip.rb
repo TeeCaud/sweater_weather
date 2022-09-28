@@ -9,13 +9,9 @@ class RoadTrip
   end
 
   private
-  
+
   def format_travel_time(time)
-    if time
     time.to_datetime.strftime("%H hours, %M minutes")
-    else
-      'No travel time provided.'
-    end
   end
 
   def destination_weather(location, index)
@@ -24,10 +20,6 @@ class RoadTrip
   end
 
   def get_hours(time)
-    if time
       time.to_datetime.strftime("%H").to_i
-    else
-      'No weather provided.'
-    end
   end
 end
