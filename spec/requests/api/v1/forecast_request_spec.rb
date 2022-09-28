@@ -2,12 +2,12 @@ require 'rails_helper'
 
 RSpec.describe 'Forecast API', :vcr do
   it 'forecast by location' do
-    get '/api/v1/forecast?location=denver, co'
+    get '/api/v1/forecasts?location=denver, co'
     expect(response).to be_successful
 
     parsed_json = JSON.parse(response.body, symbolize_names: true)
     forecast = parsed_json[:data]
-    
+
     expect(forecast).to be_a Hash
     expect(forecast[:id]).to eq(nil)
     expect(forecast[:type]).to eq('forecast')
