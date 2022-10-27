@@ -21,6 +21,5 @@ class BaseService
       Faraday.new(url: "https://openlibrary.org") do |faraday|
       end
     end
-
   end
 end
